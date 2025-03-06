@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة المنتجات</title>
+</head>
+<body>
+    <h1>قائمة المنتجات</h1>
+
+    <table border="2" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>الصورة</th>
+                <th>اسم المنتج</th>
+                <th>السعر</th>
+                <th>اختيار المنتج</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="LAB-1.jpg" alt="أجنحة دجاج حارة" width="90" height="90"></td>
+                <td>أجنحة دجاج حارة</td>
+                <td>29 <img src="Saudi_Riyal_Symbol-1.png" width="12" height="12"></td>
+                <td><input type="radio" name="product"></td>
+            </tr>
+            <tr>
+                <td><img src="LAB-2.jpg" alt="لوديد ودجز تكا" width="90" height="90"></td>
+                <td>لوديد ودجز تكا</td>
+                <td>29 <img src="Saudi_Riyal_Symbol-1.png" width="12" height="12"></td>
+                <td><input type="radio" name="product"></td>
+            </tr>
+            <tr>
+                <td><img src="LAB-3.jpg" alt="بيتزا حارة" width="90" height="90"></td>
+                <td>بيتزا حارة</td>
+                <td>39 <img src="Saudi_Riyal_Symbol-1.png" width="12" height="12"></td>
+                <td><input type="radio" name="product"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    <button type="submit">إرسال الطلب</button>
+    
+    <br><br>
+    <form>
+        <fieldset>
+            <legend>معلومات التوصيل</legend>
+            <label>الاسم:</label>
+            <input type="text" name="name"><br><br>
+            
+            <label>العنوان:</label>
+            <input type="text" name="address"><br><br>
+            
+            <label>تاريخ الطلب:</label>
+            <input type="date" name="order_date"><br><br>
+            
+            <label>طريقة الدفع:</label>
+            <input type="radio" name="payment" value="cash"> كاش
+            <input type="radio" name="payment" value="card"> بطاقة دفع
+            <br><br>
+            
+            <label>ملاحظات:</label>
+            <textarea rows="5" cols="60"></textarea>
+            <br><br>
+            <button type="submit">تأكيد الطلب</button>
+        </fieldset>
+    </form>
+    
+    <br>
+    <a href="https://www.dominos.sa/" target="_blank">عرض منيو المطعم</a>
+    
+    <br><br>
+    <ul>
+        <li>فروع الرياض</li>
+        <ul>
+            <li>الروابي</li>
+            <li>الفيحاء</li>
+            <li>الربوة</li>
+        </ul>
+        <li>فروع جدة</li>
+        <ul>
+            <li>الرحاب</li>
+            <li>الصفا</li>
+            <li>السليمانية</li>
+        </ul>
+    </ul>
+    
+    <ol type="A">
+        <li>مارجريتا</li>
+        <li>أسطورة دجاج الحار</li>
+        <li>دجاج الباربكيو</li>
+    </ol>
+    
+    <iframe width="550" height="225" 
+    src="https://www.youtube.com/embed/SygRMOOSF0k" 
+    title="تعليم طريقة صنع البيتزا"
+    allowfullscreen>
+    </iframe>
+    
+    <p><em>أنا مهتم بتصميم المواقع</em> وأطمح لأن أكون <strong>مطور ويب محترف</strong>، وأسعى للالتحاق بـ <mark>دورات وبرامج أكاديمية طويق</mark> لدعم مسيرتي.</p>
+</body>
+</html>
